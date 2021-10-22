@@ -1,0 +1,202 @@
+
+
+/* home.html style */
+
+
+ .line{
+    background-color: #ff0000;
+    height: 2px;
+    animation: load 1s ease-in  1  ;  
+}
+
+@keyframes load {
+    0%{
+        width: 0vw;
+    }
+
+    25%{
+        width: 15vw;
+    }
+    
+    50%{
+        width: 45vw;
+    }
+
+    75%{
+        width: 75vw;
+    }
+
+    99%{
+        width: 100vw;
+    }
+    100%{
+        visibility: hidden;
+    }
+   
+} 
+
+nav{
+    background-color: black;
+    position: fixed;
+    
+}
+
+.img-fluid{
+    width: 150px;
+    height: 100px;
+}
+
+li{
+    margin: 10px;
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+}
+
+#option{
+    margin: 10px;
+}
+
+#submit{
+    height: 50%;
+    margin-top: 7px;
+}
+
+.card-img-top{
+    width: 400px;
+    height: 250px;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+}
+
+    /* about.html style */
+
+
+#fluid{
+    background-color: rgba(0, 0, 0, 0.938);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+}
+
+.fluid2{
+    margin-top: 20px;
+    margin-left: 95px;
+}
+
+#fluid4{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center; 
+}
+
+.box4{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.box5{
+    color: #007bff;
+}
+
+.box5:hover{
+    color: #366496f8;
+}
+
+#link:hover{
+color: rgba(0, 0, 0, 0.712);
+}
+
+
+   /* contact.html style */
+
+   
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container-6 iframe{
+   left:0;
+   top:0;
+   height:100%;
+   width:100%;
+   position:absolute;
+}
+       
+#box6{
+    margin-right: 50%;
+    max-width: 500px;
+    margin-top: -105px;
+}
+
+#box7{
+    margin-top: -130px;
+}
+
+footer{
+    background-color: black; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+}
+
+
+
+
+   @media screen and (max-width:500px){
+
+.box{
+    margin-left: 30px;
+    padding-left: 15px;
+}
+    
+#navbarSupportedContent{
+    text-align: center;
+}
+
+.fluid2{
+    margin-left: 35px;
+}
+
+#option{
+   margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#submit{
+    margin-top: 30px;
+    /* height: 25px; */
+}
+
+.map{
+    height: 500px;
+}
+
+#search2{
+    width: 190px;
+    margin-right: 10px;
+}
+
+}
